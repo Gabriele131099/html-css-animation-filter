@@ -93,19 +93,32 @@
 }
 /* icon */
 
+@keyframes gira { 0% {
+    transform: rotate(-1turn);
+}
+}
+@keyframes blocco-giro {
+    0%
+    {
+        transform: rotate(0); 
+    }
+    40% {
+        transform: rotate(1turn);
+    
+    }
+    
+    80% {
+        transform: rotate(0);
+    
+    } 
+}
 .ex-10-icon
 {
     animation: gira 2s linear infinite;
 }
 
-@keyframes gira { 0% {
-    transform: rotate(-1turn);
-}
-}
-
-    
-
 .ex-11-icon:hover
 {
-    animation: gira 2s;
+    animation: blocco-giro 4s linear ;
 }
+
