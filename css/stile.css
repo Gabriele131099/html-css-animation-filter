@@ -63,9 +63,18 @@
 
 .ex-7-img:hover
 {    
-    transition-duration: 2s;
+    animation: filtri 4s linear;
+}
+@keyframes filtri { 
+    40% 
+    {
+    filter: grayscale(1);
+    }
+    50% 
+    {
     filter: sepia(1);
-    filter: grayscale(2);
+    }
+
 }
 
 .ex-8-img:hover
@@ -103,7 +112,7 @@
         transform: rotate(0); 
     }
     40% {
-        transform: rotate(1turn);
+        transform: rotate(340deg);
     
     }
     
@@ -119,6 +128,6 @@
 
 .ex-11-icon:hover
 {
-    animation: blocco-giro 4s linear ;
+    animation: blocco-giro 4s linear infinite ;
 }
 
