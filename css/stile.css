@@ -64,15 +64,14 @@
 .ex-7-img:hover
 {    
     transition-duration: 2s;
-    filter: grayscale(1);
+    filter: sepia(1);
+    filter: grayscale(2);
 }
 
 .ex-8-img:hover
 {
     transition-duration: 2s;
     border-radius: 10px;
-    filter: sepia(3);
-    filter: grayscale(2);
 }
 .ex-8-img
 {
@@ -96,16 +95,17 @@
 
 .ex-10-icon
 {
-    transition-duration: 2s; 
- 
+    animation: gira 2s linear infinite;
 }
-.ex-11-icon:hover , .ex-13-top-white:hover
-{
-    transition-duration: 3s;
-    transform: rotate(360deg);
-  
+
+@keyframes gira { 0% {
+    transform: rotate(-1turn);
 }
-.ex-11-icon , .ex-12-top-white
+}
+
+    
+
+.ex-11-icon:hover
 {
-    transition-duration: 0.5s;
+    animation: gira 2s;
 }
