@@ -1,0 +1,111 @@
+
+ /* transizione colore */
+ .ex-1-square:hover
+  {
+    background-color: red;
+    transition-duration: 2s;     
+ }
+
+ /* Click il rettangolo cresce */
+ .ex-2-square:active 
+{
+    transition-duration: 2s;
+    width: 600px;
+}
+
+/* da quadrato a tondo */
+.ex-3-square:hover
+{
+    transition-duration: 2s;
+    border-radius: 50%;
+}
+
+.ex-3-square 
+{
+    transition-duration: 2s ;
+}
+
+/* sparisce il quadrato  */
+.ex-4-square:hover
+{
+    transition-duration: 3s;
+    background-color: rgba(100, 97, 97, 0.0);
+}
+
+/* cresci */
+.ex-5-square:hover
+{
+    transition-duration: 2s;
+    width: 100px;
+    height: 100px;
+}
+
+.ex-5-square:active
+{
+    transition-duration: 2s;
+    width: 30px;
+    height: 30px;
+}
+
+.ex-5-square
+{
+    width: 50px;
+    height: 50px;
+    
+}
+
+/* immagine */
+
+.ex-6-img:hover
+{    
+    filter: grayscale(1);
+}
+
+.ex-7-img:hover
+{    
+    transition-duration: 2s;
+    filter: grayscale(1);
+}
+
+.ex-8-img:hover
+{
+    transition-duration: 2s;
+    border-radius: 10px;
+    filter: sepia(3);
+    filter: grayscale(2);
+}
+.ex-8-img
+{
+    transition-duration: 2s;
+}
+
+.ex-9-img
+{
+    transition-duration: 2s;
+    border-radius: 50px;
+    padding: 50px;
+}
+
+.ex-9-img:hover
+{
+    transition-duration: 2s;
+    padding: 0%;
+    border-radius: 50px;
+}
+/* icon */
+
+.ex-10-icon
+{
+    transition-duration: 2s; 
+ 
+}
+.ex-11-icon:hover , .ex-13-top-white:hover
+{
+    transition-duration: 3s;
+    transform: rotate(360deg);
+  
+}
+.ex-11-icon , .ex-12-top-white
+{
+    transition-duration: 0.5s;
+}
